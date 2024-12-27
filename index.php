@@ -156,3 +156,36 @@
 <div style="position: fixed;bottom: 2%;left: 2%; z-index: 9990;"><a href="https://t.me/MMOServerSupportBot" target="_blank"><img alt="drawing of telegram"src="https://mmo-server.com/images/gallery/telegram.png" width="50px"></a></div>
 
 <div class="notification" style="position: fixed; bottom: 20px; right: 20px; background-color: #0088cc; color: #fff; padding: 10px 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); opacity: 0; transition: opacity 0.5s ease-in-out;z-index: 9991;"></div><script>document.addEventListener('DOMContentLoaded', function () {const messages = ["لا اله الا الله", "الحمدلله", "الله اكبر", "سبحان الله"];let index = 0;function showNotification() {const notification = document.querySelector('.notification');notification.textContent = messages[index];notification.style.opacity = '1';setTimeout(function () {notification.style.opacity = '0';index = (index + 1) % messages.length;setTimeout(showNotification,2000);},2000);}showNotification();});</script>
+
+<!--Copyright change drhu start //-->
+
+<style>
+@keyframes rainbowText {
+  0% { color: rgb(255, 0, 0); } /* Red */
+  20% { color: rgb(255, 165, 0); } /* Orange */
+  40% { color: rgb(255, 255, 0); } /* Yellow */
+  60% { color: rgb(0, 128, 0); } /* Green */
+  80% { color: rgb(0, 0, 255); } /* Blue */
+  100% { color: rgb(75, 0, 130); } /* Indigo */
+}
+
+.cn { 
+  visibility: hidden; 
+}
+
+.cn::after { 
+  visibility: visible; 
+  position: absolute; 
+  font-size: 11px !important; 
+  font-weight: bold !important; /* Make the text bold */
+  padding: 2px 5px !important; 
+  display: block !important; 
+  left: 0 !important; 
+  bottom: 0px !important; 
+  right: 0px !important; 
+  content: "Developed By Dhru"; 
+  font-family: sans-serif; 
+  animation: rainbowText 5s linear infinite;
+}
+
+</style>
