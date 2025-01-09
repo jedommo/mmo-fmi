@@ -1,3 +1,5 @@
+<?php
+
 $botToken = "1687364449:AAHpiyYwUPdccB0Ut5g9-1xPKRbfLoPxWbQ";
 $apiUrl = "https://api.telegram.org/bot$botToken/";
 
